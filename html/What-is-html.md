@@ -38,7 +38,7 @@ Without HTML, a browser would not know what to display on a page.
     <p>This is my first web page.</p>
   </body>
 </html>
-
+```
 Summary
 
 HTML is the basic building block of the web.
