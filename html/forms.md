@@ -1,21 +1,21 @@
-# Forms in HTML
+# HTML Forms
 
-Forms are used to collect user input.
+HTML **forms** are used to collect data from users.
 
-Examples of form usage:
+Common examples of form usage:
 
-- login forms
-- registration forms
-- contact forms
-- search bars
+-   Login forms
+-   Registration forms
+-   Contact forms
+-   Search bars
 
 Forms are created using the `<form>` element.
 
----
+------------------------------------------------------------------------
 
 # Basic Form Example
 
-```html
+``` html
 <form>
   <label>Name:</label>
   <input type="text">
@@ -30,81 +30,114 @@ Forms are created using the `<form>` element.
   <button>Submit</button>
 </form>
 ```
-# İmportant Form Elements
 
-From :
+------------------------------------------------------------------------
 
-The <form> tag defines a form 
+# Important Form Elements
 
-    Example:
-    ```
+## Form
+
+The `<form>` tag defines a form used to collect user input.
+
+Example:
+
+``` html
 <form>
 </form>
 ```
 
-# İnput
-the <input> element allows users to enter data 
+------------------------------------------------------------------------
 
-Example: 
-```
+## Input
+
+The `<input>` element allows users to enter data.
+
+Example:
+
+``` html
 <input type="text">
 ```
 
-Common input types:
--text
--email
--password
--number
--date
+### Common Input Types
+
+-   `text`
+-   `email`
+-   `password`
+-   `number`
+-   `date`
 
 Example:
-```
+
+``` html
 <input type="password">
 ```
 
-# Lable
-labels describe input fields
-```
+------------------------------------------------------------------------
+
+## Label
+
+`<label>` elements describe input fields and help users understand what
+information to enter.
+
+Example:
+
+``` html
 <label>Email</label>
 <input type="email">
 ```
-labels improve accessibility and usability
 
-# button
-buttons are used to submit the form
-```
+Labels improve **accessibility** and **usability**.
+
+------------------------------------------------------------------------
+
+## Button
+
+Buttons are used to submit the form.
+
+Example:
+
+``` html
 <button>Submit</button>
 ```
 
-# Example Forms
+------------------------------------------------------------------------
 
-```
+# Example Form
+
+``` html
 <h2>Contact Form</h2>
 
 <form>
 
-<label>Name</label>
-<input type="text">
+  <label>Name</label>
+  <input type="text">
 
-<br><br>
+  <br><br>
 
-<label>Email</label>
-<input type="email">
+  <label>Email</label>
+  <input type="email">
 
-<br><br>
+  <br><br>
 
-<label>Message</label>
-<textarea></textarea>
+  <label>Message</label>
+  <textarea></textarea>
 
-<br><br>
+  <br><br>
 
-<button>Send</button>
+  <button>Send</button>
 
 </form>
 ```
 
-Common Beginner Mistakes
+------------------------------------------------------------------------
 
-❌ Not connecting labels to inputs
-❌ Using wrong input types
+# Common Beginner Mistakes
+
+❌ Not connecting labels to inputs\
+❌ Using wrong input types\
 ❌ Forgetting form structure
+
+------------------------------------------------------------------------
+
+💡 **Tip:** Using correct input types helps browsers validate user input
+automatically.
