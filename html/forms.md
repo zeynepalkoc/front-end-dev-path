@@ -106,7 +106,5 @@ buttons are used to submit the form
 Common Beginner Mistakes
 
 ❌ Not connecting labels to inputs
-
 ❌ Using wrong input types
-
 ❌ Forgetting form structure
