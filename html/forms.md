@@ -29,45 +29,56 @@ Forms are created using the `<form>` element.
 
   <button>Submit</button>
 </form>
+```
+# İmportant Form Elements
 
-İmportant Form Elements
+From :
 
-From 
 The <form> tag defines a form 
 
     Example:
+    ```
 <form>
 </form>
+```
 
-İnput
+# İnput
 the <input> element allows users to enter data 
 
-Example
+Example: 
+```
 <input type="text">
+```
 
-Common input types
+Common input types:
 -text
 -email
 -password
 -number
 -date
 
-Example
+Example:
+```
 <input type="password">
+```
 
-Lable
+# Lable
 labels describe input fields
+```
 <label>Email</label>
 <input type="email">
+```
 labels improve accessibility and usability
 
-button
+# button
 buttons are used to submit the form
+```
 <button>Submit</button>
+```
 
+# Example Forms
 
-Example Forms
-
+```
 <h2>Contact Form</h2>
 
 <form>
@@ -90,6 +101,7 @@ Example Forms
 <button>Send</button>
 
 </form>
+```
 
 Common Beginner Mistakes
 

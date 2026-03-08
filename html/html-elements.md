@@ -14,35 +14,40 @@ Most HTML elements consist of:
 
 ```html
 <p>This is a paragraph</p>
-
+```
 Explanation:
+```
 <p> Opening tag
 This is a Paragraf > Content
 </p> closing tag
+```
+# HTML Tag vs HTML Elements
 
-HTML Tag vs HTML Elements
 HTML Tag
 Tags are used to mark the beginnig and end of an element 
 
 Example:
+```
 <h1>
     </h1>
-
-HTML Element 
+```
+# HTML Element 
 An element includes the opening tag, content and closing tag
 
 Example:
+```
 <h1>Hello Word</h1>
-
+```
 Nested Elements 
 
 HTML elements can be placed inside other elements 
 
 Example:
-
+```
 <p>This is a <strong> very important</strong>text.</p>
-
+```
 here:
+```
 <p> contains the whole sentence
     <strong>makes part of the text blod
 
@@ -61,13 +66,16 @@ Example With Multiple Elements
 <p>Welcome to my website.</p>
 
 <a href="https://google.com">Search on Google</a>
-
+```
 Common Beginner Mistakes
 
 ❌ Forgetting closing tags
 
 wrong:
+```
 <p> hello
-
+```
 correct:
+```
     <p>hello</p>
+```

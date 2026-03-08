@@ -20,24 +20,27 @@ This structure helps the browser understand how to display the page.
 
 </body>
 </html>
-
+```
 
 Main Parts of an HTML Page
 1. DOCTYPE
-
+```
 <!DOCTYPE html>
 
 This tells the browser that the document is written in HTML5.
 
-HTML Element
+# HTML Element
+
 <html>
-
+```
  This is the rooot element of the page Everything inside the webpage is placed between:
- 
+ ```
  <html></html>
+```
 
- Head Section 
-<head>
+ # Head Section 
+ ```
+<head>```
 The head section constains information about the page 
 
 Examples:
@@ -47,15 +50,17 @@ Examples:
  - scripts
 
  Example:
+ ```
  <head>
     <title>my web site</title>
     </head>
+    ```
     the title appears in the browser tab
 
     Body Section
-
+```
     <body>
-
+```
         this is where the visible content of the page goes
 
         Examples of elements inside the body:
@@ -67,7 +72,7 @@ Examples:
         -lists
         -buttons
 Example:
-
+```
 <body>
     <h1> Welcome</h1>
     <p>This is my website</p>
@@ -89,14 +94,16 @@ Example:
 </body>
 
 </html>
-
+```
 Common Beginner Mistakes
 
 ❌ Forgetting closing tags
 
 Wrong:
+```
 <p>Hello
     v
     v
     v
     <p>Hello</p>
+    ```

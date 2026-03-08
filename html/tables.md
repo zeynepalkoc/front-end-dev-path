@@ -42,25 +42,25 @@ Example:
     <td>Spain</td>
   </tr>
 </table>
-
+```
 
 Explanation
-
-<table>
+```
+<table>```
 Defines the table.
 
-<tr>
+```<tr>```
 Defines a table row.
 
-<th>
+```<th>```
 Defines a header cell (bold text by default).
 
-<td>
+```<td>```
 Defines normal table data.
 
 
 Exaple Data
-
+```
 <h2>Student List</h2>
 
 <table>
@@ -79,12 +79,12 @@ Exaple Data
     <td>Software Engineering</td>
   </tr>
 </table>
-
+```
 
 Table Border Example
 
 To make the visible during learing we can add s border
-
+```
 <table border="1">
 
     Example:
@@ -100,21 +100,22 @@ To make the visible during learing we can add s border
     <td>Beginner</td>
   </tr>
 </table>
-
+```
 Common Beginner Mistakes
 
 ❌ Forgetting <tr> rows.
 
 Wrong:
-
+```
 <table>
   <td>HTML</td>
 </table>
-
+```
 
 Correct:
+```
 <table>
   <tr>
     <td>HTML</td>
   </tr>
-</table>
+</table> ```

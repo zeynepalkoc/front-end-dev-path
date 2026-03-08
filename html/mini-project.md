@@ -82,35 +82,24 @@ Create a simple personal webpage that includes:
 </body>
 
 </html>
+```
 
 What You Practiced
-
 In this project you practiced:
-
 HTML structure
-
 semantic elements
-
 lists
-
 images
-
 links
-
 text structure
-
 Challenge
-
 Improve the project by adding:
-
 another section
-
 a table of your skills
-
 a form for contact
+
 
 Summary
 
 This mini project combines the basic HTML concepts learned in this module.
-
 After completing this project, you should feel comfortable creating simple HTML pages.

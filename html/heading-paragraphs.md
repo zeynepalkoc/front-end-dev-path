@@ -21,13 +21,13 @@ Example:
 <h4>Small Heading</h4>
 <h5>Smaller Heading</h5>
 <h6>Smallest Heading</h6>
-
+``` 
 İmportant Rule
 
 There should usually be only one <h1> per page because it represents the main topic
 
     Example:
-
+```
     <h1>frontend bootcamp</h1>
     <h2>html basic<h2>
         <h3>introduction</h3>
@@ -73,8 +73,7 @@ There should usually be only one <h1> per page because it represents the main to
 <h2>About Me</h2>
 
 <p>I am learning frontend development.</p>
+```
 
 Common Mistakes
-
-❌ Using headings only for styling
-Headings should represent content hierarchy, not just text size.
+❌ Using headings only for styling, headings should represent content hierarchy, not just text size.
